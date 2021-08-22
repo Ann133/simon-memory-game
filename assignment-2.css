@@ -1,0 +1,129 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+} 
+
+.gameContainer {
+  position: relative;
+  width: 440px;
+  height: 440px;
+  margin: 0 auto;
+  margin-top: 200px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.fourButton {
+  cursor: pointer;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  margin: 0px;
+  border-radius: 50%;
+  border: 7px black solid;
+}
+
+.fourButton:hover {
+    opacity: 0.9;
+}
+
+#green {
+    box-shadow: inset 0px 2px 0px 0px rgb(148, 247, 148);
+    background-color: limegreen;
+    background-image: linear-gradient(rgb(148, 247, 148),limegreen);
+    top: 17%;
+    left: 9%;
+}
+
+#red {
+    box-shadow: inset 0px 2px 0px 0px rgb(218, 4, 4);
+    background-color: red;
+    background: linear-gradient(rgb(250, 112, 112),red);
+    top: 17%;
+    right: 16%;
+}
+
+#yellow {
+    box-shadow: inset 0px 2px 0px 0px rgb(243, 217, 72);
+    background-color: yellow;
+    background: linear-gradient(rgb(247, 247, 119),yellow);
+    top: 58%;
+    left: 9%;
+}
+
+#blue {
+    box-shadow: inset 0px 2px 0px 0px rgb(70, 67, 224);
+    background-color: blue;
+    background: linear-gradient(rgb(108, 108, 240),blue);
+    border-radius: 50%;
+    top: 58%;
+    right: 16%;
+}
+
+#black {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    background: linear-gradient(rgb(59, 59, 59),black);
+    border-radius: 50%;
+    border: 8px black solid;;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start {
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: lightgrey;
+    background: linear-gradient(rgb(235, 233, 233),lightgrey,rgb(167, 167, 167));
+    width: 80px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#progress {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: lightgrey;
+    background: linear-gradient(rgb(235, 233, 233),lightgrey,rgb(167, 167, 167));
+    width: 40px;
+    height:35px;
+    left: 73%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#highscore {
+    display: inline-block;
+    border-radius: 5px;
+    background-color: lightgrey;
+    background: linear-gradient(rgb(235, 233, 233),lightgrey,rgb(167, 167, 167));
+    width: 40px;
+    height: 35px;
+    left: 7%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#status {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    background: linear-gradient(rgb(235, 69, 69),red);
+    border-radius: 50%;
+    position: absolute;
+    top: 68%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+}
