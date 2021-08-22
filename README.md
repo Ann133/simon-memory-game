@@ -16,3 +16,11 @@ The	Single-Player	Simon	Game	is	as	follows:
   <img width="500" height="550" src="https://user-images.githubusercontent.com/61714473/130364454-ebe92f77-2804-4ced-9140-a23be2855d62.PNG">
 </p>
 
+**Requirements:**
+1. All	game	interface	elements	must	be	generated	using	HTML	elements	 together	with	appropriate	CSS	styling.	Generally,	your	colour	schemes,	must	follow	a	similar	colour	scheme	to	that	shown	in	Figure	 1.	 You	 may	 not	 use	 pre-constructed	 images	 for	 any	 of	 the	 game	 elements.	
+2. The	position	of	 the	interactive	and	display	elements	must,	in	general,	be	structured	as	shown	in	Figure	1.	You	cannot	use	another	layer	or	design	for	your	assignment.	
+3. The	 font	 family	 used	 is	 “Orbitron”	 and	 you	may	 load	 it	 from	 hGps://fonts.googleapis.com/.	 You	may	not	use	any	other	font	as	part	of	the	display.	
+4. You	may	not	use	a	CSS	 framework,	such	as	Bootstrap,	 for	 this	assignment.	You	may,	if	you	wish,	use	the	jQuery	Javascript	framework.	If	you	use	TypeScript,	or	similar,	and	transpire	to	JavaScript,	you	need	to	provide	all	sources.	Your	app	only	needs	to	run	on	a	desktop	browser	such	as	Chrome	-	you	do	not	need	to	ensure	it	works	on	every	browser	(mobile	browsers,	for	example).	
+5. You	 must	 comment	 your	 code,	 clearly	 indicaHng,	 how	 your	 code	 implements	 the	 Single-Player	
+Simon	game	described	above	in	the	“Assignment	02	-	Requirements”	secHon.	
+
